@@ -1,0 +1,167 @@
+body{
+    background: rgb(35, 12, 36);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    margin-right: 120px;
+
+    
+}
+
+
+.img{
+    margin-right: 120px;
+    width: 80%;
+    align-items: left;
+    display: flex;    
+}
+
+.container{
+    position: fixed;
+    width: 80vh;
+    height: 70vh;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    padding: 30px 35px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 30px rgb(50, 26, 51);
+    margin-left: 200px;
+    margin-top: 75px;
+
+}
+
+.container h1{
+    margin-top: 100px;
+    color: aquamarine;
+    }
+
+.input-field-email input{
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    background: rgb(61, 45, 60);
+    color: aliceblue;
+    font-size: 12pt;
+    box-shadow: 0px 5px 30px rgb(12, 4, 12);
+    outline-color: blueviolet;
+    box-sizing: border-box;
+}
+
+
+
+.input-field-telefone input{
+    margin-top: 25px;
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    background: rgb(61, 45, 60);
+    color: aliceblue;
+    font-size: 12pt;
+    box-shadow: 0px 5px 30px rgb(12, 4, 12);
+    outline-color: blueviolet;
+    box-sizing: border-box;
+    
+}
+
+.input-field-password input{
+    margin-top: 25px;
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    background: rgb(61, 45, 60);
+    color: aliceblue;
+    font-size: 12pt;
+    box-shadow: 0px 5px 30px rgb(12, 4, 12);
+    outline-color: blueviolet;
+    box-sizing: border-box;
+
+}
+
+.input-field-nascimento input{
+        margin-top: 25px;
+        width: 100%;
+        border-radius: 30px;
+        border: none;
+        padding: 10px;
+        background: rgb(61, 45, 60);
+        color: aliceblue;
+        font-size: 12pt;
+        box-shadow: 0px 5px 30px rgb(12, 4, 12);
+        outline-color: blueviolet;
+        box-sizing: border-box;
+
+}
+
+.button input{
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    background:linear-gradient(to right,rgb(7, 150, 150),rgb(11, 133, 120)) ;
+    color: aliceblue;
+    font-size: 12pt;
+    box-sizing: border-box;
+
+}
+
+.button input:hover{
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    background:linear-gradient(to left,rgb(7, 150, 150),rgb(4, 53, 48)) ;
+    color: aliceblue;
+    font-size: 12pt;
+    box-sizing: border-box;
+}
+
+.header{
+    position: relative;
+}
+ .waves{
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     
+    }
+    
+    .wave1{
+        animation: moveWave1 10s infinite alternate; 
+ }
+
+    @keyframes moveWave1{
+        from {
+            transform: scaleX(4);
+        }
+    }
+
+
+    .wave2{
+        animation: moveWave2 3s 1.2s  infinite alternate; 
+      }
+     
+         @keyframes moveWave2{
+             from {
+                 transform:  scaleX(6);
+             }
+         }
+   
+ 
+         .wave3{
+            animation: moveWave3 3s 0.7s infinite alternate; 
+          }
+         
+             @keyframes moveWave3{
+                 from {
+                     transform: scaleX(8);
+                 }
+             }
